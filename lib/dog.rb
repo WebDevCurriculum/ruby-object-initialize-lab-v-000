@@ -11,11 +11,11 @@ class Dog
   def name
     @name
   end
-  def breed
+  def breed()
     @breed
   end
 end
 
 fido = Dog.new("Fido")
 pug = Dog.new
-pug.breed = ""
+pug.breed = "Pug"
