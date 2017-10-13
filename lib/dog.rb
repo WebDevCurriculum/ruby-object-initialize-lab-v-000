@@ -9,3 +9,5 @@ class Dog
     @breed
   end
 end
+
+fido = Dog.new("Fido")
